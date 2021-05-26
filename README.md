@@ -67,7 +67,7 @@ module "my-cluster" {
   ]
 }
 ```
-## Conditional creation
+## Conditional creation#####3
 
 Sometimes you need to have a way to create EKS resources conditionally but Terraform does not allow to use `count` inside `module` block, so the solution is to specify argument `create_eks`.
 
